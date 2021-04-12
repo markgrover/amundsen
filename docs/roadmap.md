@@ -9,7 +9,7 @@ The following roadmap gives an overview of what we are currently working on and 
 ## Amundsen Vision
 ### Vision
 Amundsen's vision to make it easy to find, understand and stay up-to-date on data for anyone while maintaining good data governance within the company.
-We are currently focussed on analytical data present in data warehouses used for analytics, decision science, data science. We do occasionally touch upstream systems (event definitions, replication from production stores, or other third party ingests) but only to add more context to the analytical data that derives from them. We integrate with various products in the analytical ecosystem to power an automated data discovery & governance experience. We integrate with data warehouses, BI/Dashboarding tools, HR systems, Feature stores (like Feast) and more. You can find a full up-to-date list of integrations [here](README.md#supported-entities). In future, such integrations may extend to other systems like notebooks, streams, etc.
+We are currently focussed on analytical data present in data warehouses used for analytics, decision science, data science. We do occasionally touch upstream systems (event definitions, replication from production stores, or other third party ingests) but only to add more context to the analytical data that derives from them. We integrate with various products in the analytical ecosystem to power an automated data discovery & governance experience. We integrate with data warehouses, BI/Dashboarding tools, HR systems, Feature stores (like Feast) and more. You can find a full up-to-date list of integrations [here](../README.md#supported-entities). In future, such integrations may extend to other systems like notebooks, streams, etc.
 
 ### Personas
 We are currently focussed on producers (Data Engineers, Analytics Engineers) and consumers (Analysts, Data Scientists) of data. We do cater to business users especially with our integration with dashboarding systems, howevr, our immediate roadmap is focussed on going deeper and further to aid Data Engineers, Analytics Engineers, Analysts and Data Scientists than on business users. Investments to business user workflows will come in medium and long term roadmap.
@@ -37,7 +37,7 @@ _Status_: implementation started
 
 #### RDS Proxy Support
 
-_What_: Support RDS as another type of proxy for both metadata and databuilder. Details could be found in [RFC-10](https://github.com/amundsen-io/rfcs/pull/10)
+_What_: Support RDS as another type of proxy for both metadata and databuilder. Details could be found in [RFC-10](https://github.com/amundsen-io/rfcs/pull/10).
 
 _Status_: approved, implementation started
 
